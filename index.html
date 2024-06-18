@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Musical Song Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="page-title">High School Musical Song Quiz</h1>
+    </header>
+    <form class="quiz_main" id="quiz_main">
+        <div class="qnav" id="qnav">
+            <!-- Navigation/Progress Bar for Quiz-->
+            <div class="qnavtitle">Navigation</div>
+            <div class="qnavtitle">Progress</div>
+            <div class="progress-bar" id="progress-bar">0%</div>
+        </div>
+
+        <!-- Question Section -->
+        <div class="qsection" id="qsection">
+        </div>
+
+        <!-- Bottom of Quiz-->
+        <div class="qbottom">
+            <button class="submit-btn" id="submit-btn" type="button">Get Results!</button>
+        </div>   
+        <div id="result-modal" class="modal">
+            <div class="modal-content">
+              <span class="close-button">&times;</span>
+              <p id="result-text">Your matching song is !:</p>
+            </div>
+          </div>
+          
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>
